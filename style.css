@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+:root{
+    --normal: Arial;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--normal);
+    background-image: url(image/images.png);
+    background-repeat: no-repeat; 
+    background-position: right top; 
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+header > p{
+    text-align: center;
+    margin-top: 1%;
+}
+
+
+.android{
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 105px;
+    width: 500px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    box-shadow: 6px 9px 10px 4px grey;
+}
+
+.android > h2{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.android > h2::before{
+    content: '🤖 ';
+}
+
+.android > p{
+    text-align: center;
+}
+
+.android > a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    left: 36%;
+}
+
+.android > a:hover{
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.links-sociais{
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 110px;
+    width: 500px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 6px 9px 10px 4px grey;
+}
+
+.links-sociais > h2{
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.links-sociais > h2::before{
+    content: '📱 ';
+}
+
+.links-sociais > p{
+    text-align: center;
+}
+
+.links-sociais > a{
+    position: relative;
+    display: inline-block;
+    margin-top: 1%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    left: 36%;
+}
+
+.links-sociais > a::after{
+    content: ' 🚧';
+}
+
+.links-sociais > a:hover{
+    background-color: rgb(226, 226, 47);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
