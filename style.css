@@ -12,9 +12,6 @@
 
 body{
     font-family: var(--normal);
-    background-image: url(image/images.png);
-    background-repeat: no-repeat; 
-    background-position: right top; 
 }
 
 header > h1{
@@ -33,11 +30,17 @@ header > p{
     border: 5px solid black;
     border-radius: 10px;
     height: 105px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 180px;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -100%);
-    box-shadow: 6px 9px 10px 4px grey;
+}
+
+.android:hover{
+    box-shadow: 5px 5px 0px 0px green;
+    transition-duration: 0.4s;
 }
 
 .android > h2{
@@ -58,7 +61,8 @@ header > p{
     display: inline-block;
     text-decoration: none;
     padding: 10px;
-    left: 36%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .android > a:hover{
@@ -73,11 +77,17 @@ header > p{
     border: 5px solid black;
     border-radius: 10px;
     height: 110px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
     top: 45%;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 6px 9px 10px 4px grey;
+}
+
+.links-sociais:hover{
+    box-shadow: 5px 5px 0px 0px rgb(226, 226, 47);
+    transition-duration: 0.4s;
 }
 
 .links-sociais > h2{
@@ -100,7 +110,8 @@ header > p{
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    left: 36%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .links-sociais > a::after{
@@ -113,3 +124,10 @@ header > p{
     border-radius: 5px;
 }
 
+
+img{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%);
+}
