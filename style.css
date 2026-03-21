@@ -14,22 +14,16 @@ body{
     font-family: var(--normal);
 }
 
-header{
-    background-color: blue;
-    width: 100%;
-    height: 120px;
-    margin-bottom: 50px;
-}
-
 header > h1{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 header > p{
     text-align: center;
     margin-top: 1%;
-    color: white;
+    color: black;
+    margin-bottom: 50px;
 }
 
 
