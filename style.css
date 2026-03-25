@@ -119,12 +119,6 @@ header > p{
     transition-duration: 0.3s;
 }
 
-
-img{
-    display: block;
-    margin: auto;
-}
-
 .cordel-moderno{
     border: 5px solid black;
     border-radius: 10px;
@@ -166,4 +160,9 @@ img{
     color: rgb(252, 244, 244);
     border-radius: 5px;
     transition-duration: 0.3s;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
